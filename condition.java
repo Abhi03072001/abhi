@@ -1,0 +1,74 @@
+import java.util.*;
+public class condition {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int operator = sc.nextInt();
+        switch(operator) {
+            case 1: System.out.println(a+b);
+            break;
+            case 2: System.out.println(a-b);
+            break;
+            case 3: System.out.println(a*b);
+            break;
+            case 4: if(b==0) {
+                System.out.println("invalid division");
+            } else {
+                System.out.println(a/b);
+            }
+            break;
+            case 5: if(b==0) {
+                System.out.println("invalid division");
+            } else {
+                System.out.println(a%b);
+            }
+            break;
+            default : System.out.println("invalid operator");
+        }
+        
+    }
+    
+} 
+/*import java.util.Scanner;
+
+import Java.util.*;
+public class condition {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int month = sc.nextInt();
+        switch(month) {
+            case 1 : System.out.println("january");
+            break;
+            case 2 : System.out.println("february");
+            break;
+            case 3 : System.out.println("march");
+            break;
+            case 4 : System.out.println("april");
+            break;
+            case 5 : System.out.println("may");
+            break;
+            case 6 : System.out.println("june");
+            break;
+            case 7 : System.out.println("july");
+            break;
+            case 8 : System.out.println("august");
+            break;
+            case 9 : System.out.println("september");
+            break;
+            case 10 : System.out.println("october");
+            break;
+            case 11 : System.out.println("november");
+            break;
+            case 12 : System.out.println("december");
+            break;
+            default : System.out.println("only 12 month exixt in an year");
+
+
+
+        }
+
+
+     }
+}*/
+
